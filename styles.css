@@ -40,6 +40,10 @@ img {
   max-width: 100%;
 }
 
+.address-place {
+  white-space: nowrap;
+}
+
 section[id] {
   scroll-margin-top: 92px;
 }
@@ -718,6 +722,11 @@ section[id] {
   .site-header {
     grid-template-columns: auto auto;
     padding: 12px 18px;
+  }
+
+  .address-place {
+    display: block;
+    margin-top: 2px;
   }
 
   .brand img {
